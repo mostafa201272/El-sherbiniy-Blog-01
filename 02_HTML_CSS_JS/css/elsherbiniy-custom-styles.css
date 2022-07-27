@@ -1,0 +1,73 @@
+
+/* GENERAL STYLES */
+.akea-top-bar 
+.akea-top-bar-right-social a:hover, 
+.akea-navigation .akea-main-menu-left-social a:hover, 
+.akea-navigation .akea-center-menu-right-social a:hover, 
+.akea-header-side-nav .akea-header-social a:hover{
+    color:#FF0063
+}
+
+.akea-navigation .sf-menu{
+    line-height: 3
+}
+
+/* END GENERAL STYLES */
+
+/* ------------- Light MODE ------------- */
+
+/* -- HEADER NAVBAR */
+.akea-navigation .akea-navigation-slide-bar{ 
+    border-color: #FF0063; 
+}
+.akea-navigation .akea-navigation-slide-bar:before{ 
+    border-bottom-color: #FF0063; 
+}
+/* -- END HEADER NAVBAR */
+
+/* ------------- END Light MODE ------------- */
+
+/* ------------- DARK MODE ------------- */
+.darkmode .akea-header-background, 
+.darkmode .akea-sticky-menu-placeholder, 
+.darkmode .akea-header-style-boxed.akea-fixed-navigation{
+    background-color:#1E2323
+}
+
+.darkmode .sf-menu > li > a:hover, 
+.darkmode .sf-menu > li.current-menu-item > a, 
+.darkmode .sf-menu > li.current-menu-ancestor > a, 
+.darkmode .sf-vertical > li > a:hover, 
+.darkmode .sf-vertical > li.current-menu-item > a, 
+.darkmode .sf-vertical > li.current-menu-ancestor > a{
+    color: #E7F6F2
+}
+
+.darkmode .sf-menu > li > a, 
+.darkmode .sf-vertical > li > a{
+    color: #CACFCF
+}
+
+.darkmode .akea-top-bar .akea-top-bar-right-social a, 
+.darkmode .akea-navigation .akea-main-menu-left-social a, 
+.darkmode .akea-navigation .akea-center-menu-right-social a, 
+.darkmode .akea-header-side-nav .akea-header-social a{
+    color: #E7F6F2
+}
+
+.darkmode .akea-mobile-button-hamburger:before, 
+.darkmode .akea-mobile-button-hamburger:after, 
+.darkmode .akea-mobile-button-hamburger span{
+    background: #E7F6F2
+}
+
+.darkmode .akea-main-menu-search i, 
+.darkmode .akea-main-menu-cart i{
+    color: #E7F6F2
+}
+
+.darkmode #elsherbiniy-theme-change svg{
+    fill: #E7F6F2 !important;
+}
+
+/* ------------- END DARK MODE ------------- */
